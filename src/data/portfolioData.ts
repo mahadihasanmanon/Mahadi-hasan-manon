@@ -133,18 +133,6 @@ export const portfolioData: PortfolioConfig = {
       iconClass: 'fa-solid fa-bezier-curve',
       description: 'Vector logo design, iconography, branding assets, and scalable graphics.',
     },
-    {
-      name: 'DaVinci Resolve',
-      level: 'Color Grading',
-      iconClass: 'fa-solid fa-circle-half-stroke',
-      description: 'Cinematic color correction, film looks, node-based grading, and audio mastering.',
-    },
-    {
-      name: 'Audition & Sound Tools',
-      level: 'Audio Engineering',
-      iconClass: 'fa-solid fa-music',
-      description: 'Foley sound effects, noise reduction, vocal clarity enhancement, and dynamic audio beats.',
-    },
   ],
 
   videoProjects: [
@@ -690,14 +678,7 @@ export const portfolioData: PortfolioConfig = {
       companyOrType: 'Shabnaz Matching Corner',
       description:
         'Managed overall daily store operations, ensuring smooth workflow, excellent customer service, inventory optimization, and long-term business revenue growth.',
-      highlights: [
-        'Managed overall daily store operations, ensuring smooth workflow, excellent customer service, and a pleasant shopping environment.',
-        'Supervised, trained, and guided store staff to maintain high performance and achieve sales targets.',
-        'Oversaw daily sales transactions, billing, cash counter management, and financial reconciliation accurately.',
-        'Monitored inventory levels, coordinated stock updates, placed orders for new arrivals, and managed display organization to enhance visual merchandising.',
-        'Built and maintained strong, long-term relationships with customers to ensure high satisfaction, repeat business, and brand loyalty.',
-        'Handled vendor relations, resolved customer complaints, and implemented strategies to boost overall store revenue.',
-      ],
+      highlights: [],
     },
     {
       period: '3 Months Course',
@@ -705,34 +686,7 @@ export const portfolioData: PortfolioConfig = {
       companyOrType: 'As-Sunnah Skill Development Institute',
       description:
         'Completed an intensive 3-month professional course on Small Business Management, focusing on entrepreneurship, digital operations, client management, and creative business strategy.',
-      highlights: [
-        'Comprehensive training in small business operations and digital client management',
-        'Financial planning, project costing, service pricing, and delivery milestones',
-        'Professional ethics, business communication, and long-term brand building',
-      ],
-    },
-    {
-      period: '3+ Months Practice',
-      role: 'Video Editor & Motion Artist',
-      companyOrType: 'Freelance & Creator Collaborations',
-      description:
-        'Specializing in high-retention YouTube video cuts, viral Shorts/Reels, brand films, and kinetic motion graphics for content creators and businesses.',
-      highlights: [
-        'Completed 50+ video editing, motion shorts, and graphic design projects',
-        'Mastered kinetic typography, speed ramping, audio Foley, and color grading',
-        'Consistent client satisfaction with prompt delivery and creative input',
-      ],
-    },
-    {
-      period: 'Creative Design',
-      role: 'Graphic Designer & Visual Content Creator',
-      companyOrType: 'Digital Media & Ad Creatives',
-      description:
-        'Crafting commercial product photo manipulations, high-CTR social media advertising posters, and typography compositions.',
-      highlights: [
-        'Designed high-impact advertising banners, product composites, and branding assets',
-        'Proficiency in Photoshop compositing, lighting manipulation, and vector art',
-      ],
+      highlights: [],
     },
   ],
 
@@ -743,13 +697,8 @@ export const portfolioData: PortfolioConfig = {
       institution: 'Feni Polytechnic Institute',
       passingYear: '2024',
       result: '3.34 out of 4.00',
-      description:
-        'Completed a comprehensive technical engineering diploma program in Computer Science & Technology, gaining deep understanding of computational logic, digital media architectures, and creative technology.',
-      highlights: [
-        'Passing Year: 2024 with CGPA 3.34 out of 4.00',
-        'Feni Polytechnic Institute (Government Polytechnic Institute, Bangladesh)',
-        'Core focus in computing principles, software tools, digital media systems, and technical troubleshooting',
-      ],
+      description: '',
+      highlights: [],
     },
     {
       degree: 'Professional Training Course',
@@ -757,12 +706,8 @@ export const portfolioData: PortfolioConfig = {
       institution: 'As-Sunnah Skill Development Institute',
       passingYear: '2024',
       result: 'Completed with Distinction',
-      description:
-        'Intensive 3-month executive professional course on Small Business Management, focusing on entrepreneurship, operational workflows, and client relationship building.',
-      highlights: [
-        'Small business operational workflows & digital agency operations',
-        'Financial planning, client communication ethics, and brand growth',
-      ],
+      description: '',
+      highlights: [],
     },
   ],
 

@@ -110,16 +110,6 @@ export const Services: React.FC = () => {
                 <p className="text-sm text-slate-300 leading-relaxed mb-6">
                   {service.description}
                 </p>
-
-                {/* Deliverables checklist */}
-                <div className="space-y-2.5 pt-4 border-t border-slate-800/80 mb-6">
-                  {service.deliverables.map((item, idx) => (
-                    <div key={idx} className="flex items-center gap-2.5 text-xs text-slate-300">
-                      <i className="fa-solid fa-circle-check text-[#3a86ff] text-xs shrink-0"></i>
-                      <span>{item}</span>
-                    </div>
-                  ))}
-                </div>
               </div>
 
               {/* Action Link */}

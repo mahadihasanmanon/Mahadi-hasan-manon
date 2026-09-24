@@ -62,18 +62,20 @@ export const Experience: React.FC = () => {
                   <h4 className="text-lg font-bold text-white group-hover:text-[#3a86ff] transition-colors">
                     {exp.role}
                   </h4>
-                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mt-2 mb-3">
+                  <p className="text-xs sm:text-sm text-slate-300 leading-relaxed mt-2">
                     {exp.description}
                   </p>
 
-                  <div className="space-y-1.5 pt-1">
-                    {exp.highlights.map((h, hIdx) => (
-                      <div key={hIdx} className="flex items-start gap-2 text-xs text-slate-300">
-                        <i className="fa-solid fa-angle-right text-[#3a86ff] mt-0.5 shrink-0"></i>
-                        <span>{h}</span>
-                      </div>
-                    ))}
-                  </div>
+                  {exp.highlights && exp.highlights.length > 0 && (
+                    <div className="space-y-1.5 pt-2">
+                      {exp.highlights.map((h, hIdx) => (
+                        <div key={hIdx} className="flex items-start gap-2 text-xs text-slate-300">
+                          <i className="fa-solid fa-angle-right text-[#3a86ff] mt-0.5 shrink-0"></i>
+                          <span>{h}</span>
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </div>
               ))}
             </div>
